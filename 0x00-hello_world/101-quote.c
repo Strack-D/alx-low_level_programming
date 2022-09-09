@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<unistd.h>
+
 /*
- *main - Entry point
+ * main - Entry point
  *
  * Description: prints out a statement
  *
