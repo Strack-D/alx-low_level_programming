@@ -1,5 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * prints out the sizes of data types
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char charType;
@@ -7,7 +14,6 @@ int main(void)
 	float floatType;
 	long int longIntType;
 	long long int longLongIntType;
-	
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(longIntType));
