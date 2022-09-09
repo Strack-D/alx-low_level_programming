@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<unistd.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: prints out a statement
  *
- * return - Always 1(Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
