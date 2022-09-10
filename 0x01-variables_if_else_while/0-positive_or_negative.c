@@ -5,11 +5,10 @@
 /**
  * main - find if a number is negative or positive
  *
- * Return: Always 0 (success) 
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
@@ -21,5 +20,4 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 	return (0);
-
 }
