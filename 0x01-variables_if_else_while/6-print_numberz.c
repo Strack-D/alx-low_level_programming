@@ -9,7 +9,8 @@ int main(void)
 	int no;
 
 	for (no = 0; no <= 9; no++)
-		putchar(no);
-	putchat("\n");
+		c = no + '0';
+		putchar(c);
+	putchar("\n");
 	return(0);
 }
