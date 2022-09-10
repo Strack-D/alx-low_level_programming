@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int ten;
+	char ten;
 
 	for (ten = 1; ten < 10; ten++)
-		printf(ten);
-	printf('\n');
+		putchar(ten);
+	putchar('\n');
 	return (0)
 }
