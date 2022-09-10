@@ -7,8 +7,8 @@
 int main(void)
 {
 	int no;
-
-	for (no = 0; no <= 9; no++)
+	
+	while (no )
 	{
 		putchar(no);
 	}

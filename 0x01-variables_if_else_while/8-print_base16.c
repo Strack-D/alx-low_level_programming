@@ -7,9 +7,9 @@
 int main(void)
 {
 	char ch;
-	char no;
+	char no = '0';
 
-	for (no = '0'; no <= '9'; no++)
+	for (; no <= '9'; no++)
 		putchar(no);
 	for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
