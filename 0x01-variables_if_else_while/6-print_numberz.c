@@ -1,18 +1,39 @@
 #include <stdio.h>
 
+
+
 /**
- * main - print out numbers
- * Return: Always 0 (success)
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
+
 {
-	int no = 48;
-	
-	while (no < 58)
-	{
-		putchar(no);
-		no++;
-	}
-	putchar('\n');
-	return (0);
+
+	 int d = 48;
+
+
+
+	  while (d < 58)
+
+		   {
+
+			     putchar(d);
+
+			       d++;
+
+			        }
+
+	   putchar('\n');
+
+
+
+	    return (0);
+
 }
