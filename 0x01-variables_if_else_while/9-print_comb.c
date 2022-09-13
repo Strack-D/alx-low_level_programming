@@ -1,21 +1,39 @@
 #include <stdio.h>
 
-/**
- * main - print numbers 1-9
- * Return: Always 0 (success)
- */
-int main(void)
-{
-	int no;
-	
-	for (no = '0'; no <= '9'; no++)
-	{
-		putchar((no % 10) + '0');
-		if (no == '9')
-			continue;
 
-		putchar(',');
-		putchar(' ');
-	}
-	return (0);
+
+/**
+
+ * main - Entry point
+
+ *
+
+ * Return: Always 0 (Success)
+
+ */
+
+int main(void)
+
+{
+
+ int d = 48;
+
+
+
+ while (d < 58)
+
+ {
+
+  putchar(d);
+
+  d++;
+
+ }
+
+ putchar('\n');
+
+
+
+ return (0);
+
 }
