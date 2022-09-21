@@ -18,7 +18,7 @@ void puts_half(char *str)
 		no = (i - 1) / 2;
 	while (no++)
 	{
-		if (no = i)
+		if (no == i)
 			break;
 		_putchar(str[no]);
 	}
