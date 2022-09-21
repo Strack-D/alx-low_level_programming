@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - print the elements of an array of integers
@@ -10,10 +11,10 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	while(i < n)
+	while (i < n)
 	{
 		printf("%d", a[i]);
-		if(i == 4)
+		if (i == 4)
 			break;
 		printf(", ");
 		i++;
